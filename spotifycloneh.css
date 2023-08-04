@@ -1,0 +1,216 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.main{
+    height: 90vh;
+    display: flex;
+    overflow: hidden;
+}
+.right-main{
+    flex: 4;
+    background-color: black;
+    overflow-y: scroll;
+    scroll-behavior: none;
+}
+.left-main{
+    flex: 1;
+    background-color: black;
+    overflow-y: scroll;
+}
+.player{
+    height: 10vh;
+    background-color: black;
+    position: fixed;
+    width: 100vw;
+  
+    
+
+}
+.spot{
+    padding: 20px;
+    
+}
+.home{
+    margin: 10px;
+    padding: 10px;
+    
+    color: white;
+}
+.home>ul{
+    list-style-type: none;
+}
+.create{
+    color: white;
+    padding: 10px;
+}
+.fav{
+    color: white;
+    padding: 10px;
+    list-style-type: none;
+    margin: 10PX;
+    
+}
+.home-1{
+    font-size: 20px;
+     line-height: 20px;
+
+}
+.img-1{
+    width: 20px;
+    height: 10pvh;
+}
+.right-main-1{
+    justify-content: space-between;
+}
+.right-1{
+    padding: 10px;
+    margin: 10px;
+    justify-content: space-between;
+    gap: 10px;
+    border-radius: 50px;
+    width: 150px;
+    height: 50px;
+    
+}
+.right-1:hover{
+    background-color: red;
+}
+.left-1 {
+    padding: 10px;
+    margin: 10px;
+    font-weight: 100px;
+   
+   
+}
+.left-1>button{
+  border-radius: 10px;
+  background-color: black;
+  color: azure;
+  border: none;
+}
+.para {
+    color: white;
+    padding-right: 100px;
+}
+.para-2{
+    background-color: grey;
+    width: 200px;
+    justify-content: space-around;
+    height: 50px;
+    align-items: center;
+    border-radius: 10px;
+    color: beige;
+}
+.Link{
+    color: white;
+    font-weight: 200;
+    
+
+
+}
+.para-1{
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.song-1{
+    color: white;
+    padding: 50px;
+    width: 90vh;
+    gap: 10px;
+
+}
+.song-1-1{
+    justify-content: space-between;
+}
+
+.song{
+    padding: 50px;
+}
+.pic{
+    
+    text-align: center;
+}
+
+.volume-controls{
+    width: 30vw;
+    
+}
+
+.song-1-1>div{
+    overflow: hidden;
+    background-color: rgb(196, 77, 77);
+    
+
+}
+.volume-1{
+    align-items: center;
+    gap: 20px;
+    padding: 10px;
+}
+.volume-controls{
+    justify-content: space-between;
+    align-items: center;
+} 
+.center-1{
+    justify-content: space-between;
+}
+.name-1{
+    align-self: center;
+    padding-left: 20px;
+}
+.center-2{
+    display: flex;
+    gap: 20px;
+    padding-left: 20px;
+}
+.controls-2{
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    
+}
+
+
+.spoty>img{
+    padding: 20px;
+    
+}
+.home{
+    display: flex; 
+    padding: 10px;
+    gap: 10px;
+    align-items: center;
+}
+.search{
+    display: flex; 
+    padding: 10px;
+    gap: 10px;
+    align-items: center;
+}
+.library{
+    display: flex; 
+    padding: 10px;
+    gap: 10px;
+    align-items: center;
+}
+.playlist{
+    padding: 15px;
+}
+.list{
+    display: flex;
+    gap: 10px;
+    padding-top: 10px;
+}
+.liked{
+    display: flex;
+    gap: 10px;
+    padding-top: 10px;
+}
+
+.photo{
+    justify-content: start;
+    align-items: baseline;
+    background-color:lightslategray;
+}
