@@ -80,6 +80,7 @@
     padding: 10px;
     margin: 10px;
     font-weight: 100px;
+    background-color: black;
    
    
 }
@@ -134,7 +135,7 @@
 }
 
 .volume-controls{
-    width: 30vw;
+    width: 100vw;
     
 }
 
@@ -213,4 +214,11 @@
     justify-content: start;
     align-items: baseline;
     background-color:lightslategray;
+}
+.play{
+    bottom: 0;
+    position: fixed;
+    height: 100px;
+    width:100vw;
+    background-color: black;
 }
